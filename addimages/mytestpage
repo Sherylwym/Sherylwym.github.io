@@ -1,1 +1,16 @@
-
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+<img src="images/dog.jpg" 
+     alt="a brown dog with a red collar laying in a field on grass"
+     width="400"
+     height="350"
+     title="A dog sitting on grass">
+  </body>
+</html>
