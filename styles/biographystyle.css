@@ -26,4 +26,10 @@
       border: 5px solid purple;
       background color: #eeeeee;
     }
+    a {
+        color: blue;
+    }
+    a:hover{
+        color: green;
+    }
     </style>
