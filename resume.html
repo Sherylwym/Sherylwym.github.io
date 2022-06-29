@@ -3,19 +3,60 @@
   <head>
     <meta charset="utf-8">
     <title>yimiaowu</title>
-   <style>
+    <style>
     body {
-      width: 800px;
       margin: 0 auto;
-      padding: 0 20px 20px 20px;
-      border: 2px solid #FFCCCC;
+      height: 960px;
+      width: 800px;
+    }
+   .container {
+     display: grid;
+     grid-template-rows: 144px 48px 700px 68px;
+     grid-template-columns: 40px 40px 720px;
+    }
+    box {
+      grid-row: 1;
+      grid-column: 2;
+      width: 40px;
+      font-family:'Times New Roman';
+      margin-left: 50px;
+      padding: 40px;
+      background-color: #FF8800;
+    }
+    header {
+      grid-row: 1;
+      grid-column: 3;
+    }
+    box2 {
+      grid-row: 2;
+      grid-column: 1 / 3;
+      background-color: #FF8800;
+    }
+    box3 {
+      grid-row:3;
+      grid-column: 1;
+      background-color: #FF8800;
+    }
+    experience {
+      grid-row: 3;
+      grid-column: 3;
+    }
+    portfolio {
+      grid-row: 4;
+      grid-column: 1 / 3;
     }
     h1 {
       font-family:'Times New Roman';
       font size=50px;
+      color:#FF8800
+    } 
+    h4 {
+      font-family:'Times New Roman';
+      font size=50px;
+      color:FFFFFF;
     } 
     h2 {
-      font size=15px;
+      font size=17px;
       color:#FF8800;
       font-weight:bold;
       font-family:'Times New Roman';
@@ -53,10 +94,45 @@
     </style>
   </head>
   <body>
+    <div class="container">
     
-    <h1>Yimiao Wu (She/Her/Hers)</h1>
-    <p2>yimiaowu.com // yimiaow@andrew.cmu.edu // +86 18610032257 // Beijing, China</p2>
+    <box>
+     <h4>Y/W</h4>
+    </box>
     
+    <header>
+     <h1>Yimiao Wu (She/Her/Hers)</h1>
+     <p2>yimiaowu.com // yimiaow@andrew.cmu.edu // +86 18610032257 // Beijing, China</p2>         </header>
+    
+    <box2></box2>
+    <box3> 
+     <p3>Experienced design-related student with good aesthetic judgement and software skills. Seeking internship opportunities for summer of 2022.
+     <h3>Profile</h3>
+     <p3>Beijing University of Technology
+        Sep 2018 – Jul 2022
+        Bachelor of Engineering in Industrial Design
+     </p3>
+     <h3>Education</h3>
+     <p3>Carnegie Mellon University
+        Sep 2022 – now
+        Master of Educational Technology and Applied Learning Science
+     </p3>
+     <h3>Competencies</h3>
+     <p3>
+    //2D, Motion Design//
+    Adobe Illustrator, Photoshop, InDesign, After Effects, Premiere
+    //Prototyping//
+    Adobe XD, Sketch
+    //3D Modeling//
+    AutoCAD, Rhino, Key-Shot, Cinema4D, Sketch-Up, 3DsMax
+    //Programming//
+    HTML & CSS. Arduino. C Language
+    //Language//
+    Chinese (Native), English (Fluent)
+     </p3>
+    </box3>
+    
+    <experience>
     <h2>EXPERIENCE</h2>
     <p1>RA&N Dept., Orange Research & Development Beijing Co., Ltd.</p1>
     <br>
@@ -83,46 +159,17 @@
         Collected users’ views and feelings from traditional furniture to smart home through toughly 100 questionnaires and 
         interviews of total 30 people of different ages.
     </p2>
-    
     <h2>HONORS AND AWARDS</h2>
     <p2>Finalists, The Outstanding Student Program of BJUT//2018                         
         Scholarship, College-level Outstanding Cadre//2019                              
         Scholarship, English Learning Excellence Award//2020
     </p2>
-    <br>
-    <br>
-    <p3>Experienced design-related student with good aesthetic judgement and software skills.
-    Seeking internship opportunities for summer of 2022.
-    </p3>
+    </experience>
     
-    <h3>Profile</h3>
-    <p3>Beijing University of Technology
-        Sep 2018 – Jul 2022
-        Bachelor of Engineering in Industrial Design
-    </p3>
+    <portfolio>  
+    <p4>Portfolio: <a>href=“https://www.behance.net/wuyimiao2000">https://www.behance.net/wuyimiao2000</a>           </p4>
+    </portfolio>  
     
-    <h3>Education</h3>
-    <p3>Carnegie Mellon University
-        Sep 2022 – now
-        Master of Educational Technology and Applied Learning Science
-    </p3>
-    
-    <h3>Competencies</h3>
-    <p3>
-    //2D, Motion Design//
-    Adobe Illustrator, Photoshop, InDesign, After Effects, Premiere
-    //Prototyping//
-    Adobe XD, Sketch
-    //3D Modeling//
-    AutoCAD, Rhino, Key-Shot, Cinema4D, Sketch-Up, 3DsMax
-    //Programming//
-    HTML & CSS. Arduino. C Language
-    //Language//
-    Chinese (Native), English (Fluent)
-    </p3>
-    <br>
-    <br>
-    <p4>Portfolio: <a href=“https://www.behance.net/wuyimiao2000">https://www.behance.net/wuyimiao2000</a></p4>
-      
+    </div>
   </body>
 </html>
