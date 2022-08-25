@@ -1,4 +1,3 @@
-<script>     
 const showQues = document.querySelector('.showQues');       
 const testObj = [           
 {Q: 'The First Question', A: 'A'},            
@@ -34,4 +33,3 @@ clickQues();
 showQues.onclick = function() {           
 clickQues()        
 }    
-</script>
